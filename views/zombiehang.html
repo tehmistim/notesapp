@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+        integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="public/css/hangman.css">
+
+    <title>UNIMATRIX 94866.2 - ZOMBIE-HANG</title>
+</head>
+
+<body>
+    {{> _header}}
+        
+    <div class="container">
+                {{{body}}}
+
+    <h1 class="text-center">Zombie-Hang</h1>
+        <div class="float-right">Wrong Guesses: <span id='mistakes'>0</span> of <span id='maxWrong'></span></div>
+                <div class="text-center">
+                    <img id='hangmanPic' src="./images/0.png" alt="">
+                    <p>Guess the Car Manufacturer:</p>
+                    <p id="wordSpotlight">The word to be guessed goes here</p>
+                    <div id="keyboard"></div>
+                    <button class="btn btn-info" onClick="reset()">Reset</button>
+                </div> 
+                <script src='./models/hangman.js'></script>
+    </div>
+        <script>
+            M.Sidenav.init(document.querySelector('.sidenav'))
+            M.FormSelect.init(document.querySelector('#status'))
+
+            CKEDITOR.replace('body', {
+                plugins: 'wysiwygarea, toolbar, basicstyles, link'
+            })
+        </script>
+</body>
+
+</html>
