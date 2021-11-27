@@ -9,6 +9,7 @@
     "postinstall": "node ./scripts/post-install.js"
   },
   "author": "Brad Traversy",
+  "student use": "Tim A. Washington",
   "license": "MIT",
   "dependencies": {
     "connect-mongo": "^3.2.0",
