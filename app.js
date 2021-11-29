@@ -71,9 +71,9 @@ app.set('view engine', '.hbs')
 app.use(
   session({
     secret: 'keyboard cat',
-    resave: false,
-    saveUninitialized: false,
-    store: new MongoStore({ mongooseConnection: mongoose.connection }),
+    resave: false, //not saving sessions that are not saved
+    saveUninitialized: false,  //dont create unless stored
+    store: new MongoStore({ mongooseConnection: mongoose.connection }),  //database storage
   })
 )
 
