@@ -7,8 +7,7 @@
     "server-prod": "node app.js",
     "server": "nodemon app.js",
     "start": "node app.js"
-    },
-    
+  },
   "teacher": "Brad Traversy",
   "student use": "Tim A. Washington",
   "license": "MIT",
@@ -24,7 +23,8 @@
     "mongoose": "^5.9.19",
     "morgan": "^1.10.0",
     "passport": "^0.4.1",
-    "passport-google-oauth20": "^2.0.0"
+    "passport-google-oauth20": "^2.0.0",
+    "serve-favicon": "^2.5.0"
   },
   "devDependencies": {
     "cross-env": "^7.0.2",

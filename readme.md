@@ -10,7 +10,7 @@ This app uses
 
 # Credits
 
-Brad Traversy @ Traversy Media 
+Teaching by DevMountain/BrightPaths Instructors and TA and Brad Traversy @ Traversy Media 
 
 After 4 hours of courses he teaches on Udemy I followed one of his projects to create this alongside the video tutorial.
 

@@ -1,5 +1,6 @@
 const path = require('path')
 const express = require('express')
+const favicon = require('serve-favicon')
 const mongoose = require('mongoose')
 const dotenv = require('dotenv')
 const morgan = require('morgan')
@@ -10,6 +11,7 @@ const session = require('express-session')
 const MongoStore = require('connect-mongo')(session)
 const connectDB = require('./config/db')
 
+
 // Load config
 dotenv.config({ path: './config/config.env' })
 
@@ -19,6 +21,9 @@ require('./config/passport')(passport)
 connectDB()
 
 const app = express() 
+
+//FAVICON
+app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')))
 
 // Body parser
 app.use(express.urlencoded({ extended: false }))
