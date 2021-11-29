@@ -8,6 +8,7 @@ This app uses
 - MongoDB
 - Google OAuth authentication
 
+
 # Credits
 
 Teaching by DevMountain/BrightPaths Instructors, TA and Brad Traversy
@@ -19,7 +20,14 @@ Teaching by DevMountain/BrightPaths Instructors, TA and Brad Traversy
     ✔️ Delete/Edit notes
 
 
+# Deployed
+
+App deployed using Heroku
+
+- https://notesapp-taw.herokuapp.com/
+
 
 # Presentation
 
-Can be found @ *tbd
+- In work
+- Can be found @ *tbd
