@@ -2,11 +2,11 @@
   "name": "notesapp",
   "version": "1.0.0",
   "description": "App for creating public and private stories",
-  "main": "app.js",
+  "main": "./app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node ./app.js"
   },
-  "author": "Brad Traversy",
+  "teacher": "Brad Traversy",
   "student use": "Tim A. Washington",
   "license": "MIT",
   "dependencies": {
