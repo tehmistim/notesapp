@@ -1,11 +1,9 @@
 {
-  "name": "storybooks",
+  "name": "notesapp",
   "version": "1.0.0",
   "description": "App for creating public and private stories",
   "main": "app.js",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development nodemon app",
-    "postinstall": "node ./scripts/post-install.js",
     "start": "node app.js"
   },
   "author": "Brad Traversy",
