@@ -30,4 +30,4 @@ App deployed using Heroku
 
 # Presentation
 
-- Video @ https://youtu.be/Do-UN_LJNsw
+- Video @ https://youtu.be/1ALhbqAlPNc
