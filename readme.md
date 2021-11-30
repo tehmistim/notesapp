@@ -4,6 +4,7 @@ Create public and private notes using an interactive app with modern styling and
 
 This app uses 
 - Node.js
+- Handlebars html
 - Express
 - MongoDB
 - Google OAuth authentication
@@ -29,5 +30,4 @@ App deployed using Heroku
 
 # Presentation
 
-- In work
-- Can be found @ *tbd
+- Video @ https://youtu.be/Do-UN_LJNsw
