@@ -1,5 +1,8 @@
 # Notes app
 
+![screenshot](https://user-images.githubusercontent.com/92332173/144466779-16245c98-a292-4e99-b5e7-c4054627013d.jpg)
+
+
 Create public and private notes using an interactive app with modern styling and easy to use functionality.
 
 This app uses 
